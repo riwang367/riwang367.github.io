@@ -1,0 +1,89 @@
+/* Colors:
+ * light grey: #DBC2CF;
+ * pale mauve/hover link: #DBC2CF;
+ * pink/current link: #F2BBC9;
+ * dark purple/header/navi: #51355A;
+ * boxes hover (lighter grey): #DDDEE4;
+ */
+
+header {
+	font-family: Georgia;
+	text-align: center;
+	font-size: 4vh;
+	color: #51355A;
+}
+
+.navi {
+	font-family: Verdana;
+	font-style: italic;
+	font-size: 2vh;
+}
+
+navi > a, a:link, a:visited {
+	color: #51355A;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+#current {
+	color: #F2BBC9;
+}
+
+a:hover, #current:hover {
+	color: #DBC2CF;
+	transition-duration: .5s;
+}
+
+main {
+	font-family: Verdana;
+	text-align: center;
+	font-size: 2vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+#left {
+	float: left;
+	background-color: #9FA2B2;
+	height: 20vw;
+	width: 20vw;
+	margin-left: 7vw;
+	padding: 2vw;
+	border-radius: 25px;
+	transition-duration: 1s;
+}
+#left:hover {
+	background-color: #DDDEE4;
+	transition-duration: 1s;
+}
+
+#middle {
+	float: left;
+	background-color: #DBC2CF;
+	height: 20vw;
+	width: 20vw;
+	margin-left: 5vw;
+	padding: 2vw;
+	border-radius: 25px;
+	transition-duration: 1s;
+}
+#middle:hover {
+	background-color: #DDDEE4;
+	transition-duration: 1s;
+}
+
+#right {
+	float: left;
+	background-color: #F2BBC9;
+	height: 20vw;
+	width: 20vw;
+	margin-left: 5vw;
+	padding: 2vw;
+	border-radius: 25px;
+	transition-duration: 1s;
+}
+#right:hover {
+	background-color: #DDDEE4;
+	transition-duration: 1s;
+}
+
