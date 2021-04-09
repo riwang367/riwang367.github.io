@@ -87,3 +87,11 @@ main {
 	transition-duration: 1s;
 }
 
+footer {
+	display: block;
+	margin-top: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+}
